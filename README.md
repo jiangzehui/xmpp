@@ -24,7 +24,7 @@ GIF
 <br>
 #APK
 [apk下载](https://github.com/jiangzehui/yyquan/blob/master/apk/yyq1.2.2.apk)
-<br>或者前往各大应用市场（应用宝，360，百度等）搜索**猿友圈**下载
+<br>或者前往各大应用市场（应用宝，360，百度等）搜索 **猿友圈** 下载
 <br>
 #用到的三方库
 ##客户端
