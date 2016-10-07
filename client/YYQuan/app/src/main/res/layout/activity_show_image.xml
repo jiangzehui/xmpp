@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+    tools:context="com.yyquan.jzh.activity.ShowImageActivity">
+
+    <ImageView
+
+        android:id="@+id/showimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@mipmap/me_icon_man"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

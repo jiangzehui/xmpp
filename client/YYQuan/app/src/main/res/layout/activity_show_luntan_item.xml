@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.demievil.library.RefreshLayout
+        android:id="@+id/show_luntan_freshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ScrollView
+
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+
+                        android:orientation="horizontal">
+
+                        <com.yyquan.jzh.view.CircleImageView
+                            android:id="@+id/show_luntan_imageview_icon"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="start"
+                            android:src="@mipmap/aio_image_default_round"
+                            app:border_color="#ffffff"
+                            app:border_width="2dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/show_luntan_textView_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:text="Name"
+                                android:textColor="@color/title"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/show_luntan_textView_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="2015-10-18 13:38:45"
+                                android:textColor="#bcb4b4"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/show_luntan_textView_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="marquee"
+                                android:maxLines="2"
+                                android:text="content"
+                                android:textColor="#000000"
+                                android:textSize="15dp" />
+
+                            <com.yyquan.jzh.view.NoScrollGridView
+                                android:id="@+id/show_luntan_gridview"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:horizontalSpacing="5dp"
+                                android:numColumns="3"
+                                android:verticalSpacing="5dp" />
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/show_luntan_textView_location"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_marginTop="5dp"
+                                    android:drawableLeft="@mipmap/location"
+
+                                    android:text="123"
+                                    android:textColor="#bcb4b4"
+                                    android:textSize="14dp" />
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View style="@style/view_lines_vertical"
+
+                    />
+
+                <TextView
+                    android:id="@+id/show_luntan_pinglun_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+
+                    android:text="暂无评论" />
+
+                <View style="@style/view_lines_vertical"
+
+                    />
+
+
+                <com.yyquan.jzh.view.MyListView
+                    android:id="@+id/show_luntan_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:divider="@null"
+                    android:scrollbars="none">
+
+                </com.yyquan.jzh.view.MyListView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </com.demievil.library.RefreshLayout>
+
+
+</LinearLayout>

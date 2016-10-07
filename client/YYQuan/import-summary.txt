@@ -1,0 +1,83 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => umeng_community_android_library\src\main\AndroidManifest.xml
+* assets\ => umeng_community_android_library\src\main\assets\
+* libs\activeandroid.jar => umeng_community_android_library\libs\activeandroid.jar
+* libs\android-support-v7-recyclerview.jar => umeng_community_android_library\libs\android-support-v7-recyclerview.jar
+* libs\Android_Location_V1.3.2.jar => umeng_community_android_library\libs\Android_Location_V1.3.2.jar
+* libs\armeabi\libcocklogic.so => umeng_community_android_library\src\main\jniLibs\armeabi\libcocklogic.so
+* libs\armeabi\libtnet-2.0.17-agoo.so => umeng_community_android_library\src\main\jniLibs\armeabi\libtnet-2.0.17-agoo.so
+* libs\com.umeng.message.lib_v2.2.0.jar => umeng_community_android_library\libs\com.umeng.message.lib_v2.2.0.jar
+* libs\httpmime-4.1.3.jar => umeng_community_android_library\libs\httpmime-4.1.3.jar
+* libs\SocialSDK_QQZone_1.jar => umeng_community_android_library\libs\SocialSDK_QQZone_1.jar
+* libs\SocialSDK_QQZone_2.jar => umeng_community_android_library\libs\SocialSDK_QQZone_2.jar
+* libs\SocialSDK_QQZone_3.jar => umeng_community_android_library\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_Sina.jar => umeng_community_android_library\libs\SocialSDK_Sina.jar
+* libs\SocialSDK_WeiXin_1.jar => umeng_community_android_library\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => umeng_community_android_library\libs\SocialSDK_WeiXin_2.jar
+* libs\umeng_community_sdk_core.jar => umeng_community_android_library\libs\umeng_community_sdk_core.jar
+* libs\umeng_community_sdk_login.jar => umeng_community_android_library\libs\umeng_community_sdk_login.jar
+* libs\umeng_community_sdk_push.jar => umeng_community_android_library\libs\umeng_community_sdk_push.jar
+* libs\umeng_community_sdk_share.jar => umeng_community_android_library\libs\umeng_community_sdk_share.jar
+* libs\umeng_community_sdk_ui.jar => umeng_community_android_library\libs\umeng_community_sdk_ui.jar
+* libs\umeng_social_sdk.jar => umeng_community_android_library\libs\umeng_social_sdk.jar
+* libs\x86\libcocklogic.so => umeng_community_android_library\src\main\jniLibs\x86\libcocklogic.so
+* libs\x86\libtnet-2.0.17-agoo.so => umeng_community_android_library\src\main\jniLibs\x86\libtnet-2.0.17-agoo.so
+* res\ => umeng_community_android_library\src\main\res\
+* src\ => umeng_community_android_library\src\main\java
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

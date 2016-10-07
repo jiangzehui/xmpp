@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#1ed6ff</color>
+    <color name="tab_text_bg">#bababa</color>
+    <color name="pinglun_name">#238123</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="topbar_bg">#12AF4D</color>
+    <color name="tab_bg">#f9f9f9</color>
+
+    <color name="line_bg">#f0f0f0</color>
+    <color name="hui">#7a6d6d</color>
+    <color name="color_blue_foot">#1ed6ff</color>
+
+    <color name="triangle">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+
+    <color name="color_grey_mine_bg">#f0efed</color>
+
+    <color name="colorAccent">#FF00E5FF</color>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="luntan_add_color">#ffff4444</color>
+    <color name="location_cri_color">#3dafaa93</color>
+
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+</resources>

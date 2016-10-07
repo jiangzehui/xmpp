@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- checked -->
+    <item android:drawable="@mipmap/kai" android:state_checked="true" />
+    <!-- default -->
+    <item android:drawable="@mipmap/guan" android:state_checked="false" />
+</selector>

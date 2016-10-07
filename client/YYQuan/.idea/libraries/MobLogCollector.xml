@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MobLogCollector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/MobLogCollector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="@mipmap/luntan_back">
+
+        <com.yyquan.jzh.view.CircleImageView
+            android:id="@+id/luntan_imageview_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/me_icon_woman"
+            app:border_color="#ffffff"
+            app:border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tv_introduce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#24bbcab4"
+            android:gravity="center|left"
+            android:maxLines="2"
+            android:padding="8dp"
+            android:text="最新动态"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

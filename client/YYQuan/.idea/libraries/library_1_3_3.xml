@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.3.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.rockerhieu.emojicon/library/1.3.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.rockerhieu.emojicon/library/1.3.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rockerhieu.emojicon/library/1.3.3/7000908b7b9725c84609ef08b92597974ca1f1b8/library-1.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

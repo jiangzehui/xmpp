@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#999999" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/while_blue"
+        android:padding="10dp"
+        android:paddingLeft="5dp">
+
+
+        <TextView
+
+            android:id="@+id/textViewid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="用户ID："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/myself_textview_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewid"
+            android:layout_toEndOf="@+id/textViewid"
+            android:layout_toRightOf="@+id/textViewid"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#999999" />
+
+
+    <RelativeLayout
+        android:id="@+id/myself_layout_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/while_blue"
+        android:padding="10dp"
+        android:paddingLeft="5dp">
+
+
+        <TextView
+
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="性别："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/myself_textview_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.2px"
+        android:background="#999999" />
+
+    <RelativeLayout
+        android:id="@+id/myself_layout_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/while_blue"
+        android:padding="10dp"
+        android:paddingLeft="5dp">
+
+
+        <TextView
+
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="年龄："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/myself_textview_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_toRightOf="@+id/textView6"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.2px"
+        android:background="#999999" />
+
+    <RelativeLayout
+        android:id="@+id/myself_layout_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/while_blue"
+        android:padding="10dp"
+        android:paddingLeft="5dp">
+
+
+        <TextView
+
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="QQ号码："
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/myself_textview_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.2px"
+        android:background="#999999" />
+
+
+</LinearLayout>

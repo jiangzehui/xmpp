@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/while_blue"
+    android:padding="5dp">
+
+    <com.yyquan.jzh.view.CircleImageView
+        android:id="@+id/fragment_message_imageview_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="start"
+        android:src="@mipmap/qq_addfriend_search_friend"
+        app:border_color="#ffffff"
+        app:border_width="2dp" />
+
+    <TextView
+        android:id="@+id/fragment_message_textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fragment_message_imageview_icon"
+        android:layout_toEndOf="@+id/fragment_message_imageview_icon"
+        android:layout_toRightOf="@+id/fragment_message_imageview_icon"
+        android:text=""
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/fragment_message_textView_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fragment_message_imageview_icon"
+        android:paddingRight="40dp"
+        android:layout_toEndOf="@+id/fragment_message_imageview_icon"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        android:layout_toRightOf="@+id/fragment_message_imageview_icon" />
+
+    <TextView
+        android:id="@+id/fragment_message_textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/fragment_message_textView_title"
+         />
+
+    <com.yyquan.jzh.view.BadgeView
+        android:id="@+id/tv_tishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fragment_message_imageview_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+         />
+
+
+</RelativeLayout>

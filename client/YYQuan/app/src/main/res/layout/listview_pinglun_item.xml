@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <com.yyquan.jzh.view.CircleImageView
+                android:id="@+id/listview_pinglun_item_imageview_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="start"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/ic_launcher"
+                app:border_color="#778377"
+                app:border_width="0.2px" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/listview_pinglun_item_textView_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/while_blue"
+                    android:maxLines="1"
+                    android:text="123"
+                    android:textColor="#238123"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listview_pinglun_item_textView_lou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/listview_pinglun_item_textView_name"
+                    android:layout_below="@+id/listview_pinglun_item_textView_name"
+                    android:ellipsize="marquee"
+
+                    android:text="123"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/listview_pinglun_item_textView_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/listview_pinglun_item_textView_lou"
+                    android:layout_below="@+id/listview_pinglun_item_textView_lou"
+                    android:drawableLeft="@mipmap/location"
+                    android:ellipsize="marquee"
+                    android:text=""
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/listview_pinglun_item_textView_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/listview_pinglun_item_textView_location"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listview_pinglun_item_textView_zan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_above="@+id/listview_pinglun_item_textView_lou"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:drawableRight="@mipmap/pic_btn_liked"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="14dp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/listview_pinglun_item_textView_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/listview_pinglun_item_textView_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#c7bebe" />
+
+</LinearLayout>

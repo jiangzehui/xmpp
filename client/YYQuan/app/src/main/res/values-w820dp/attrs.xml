@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="topbar">
+        <attr name="lefttext" format="string" />
+        <attr name="leftdrawable" format="reference" />
+        <attr name="lefttextcolor" format="color" />
+        <attr name="lefttextsize" format="dimension" />
+        <attr name="rightbackground" format="reference" />
+        <attr name="rightwidth" format="dimension" />
+        <attr name="rightheight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+
+        <attr name="border_width" format="dimension" />
+
+        <attr name="border_color" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadingText" format="string" />
+        <attr name="loadingTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LockPatternView">
+
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+
+
+</resources>

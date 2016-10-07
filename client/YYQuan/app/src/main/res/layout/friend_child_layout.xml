@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/while_blue"
+    android:padding="5dp">
+
+    <com.yyquan.jzh.view.CircleImageView
+        android:id="@+id/friend_child_imageview_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="start"
+        android:src="@mipmap/aio_image_default_round"
+        app:border_color="#ffffff"
+        app:border_width="2dp" />
+
+    <TextView
+        android:id="@+id/friend_child_textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/friend_child_imageview_icon"
+        android:layout_toEndOf="@+id/friend_child_imageview_icon"
+        android:layout_toRightOf="@+id/friend_child_imageview_icon"
+
+        android:text="12"
+        android:textColor="#000000"
+         />
+
+    <ImageView
+        android:id="@+id/friend_child_imageview_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/friend_child_imageview_icon"
+        android:layout_alignEnd="@+id/friend_child_imageview_icon"
+        android:layout_alignRight="@+id/friend_child_imageview_icon"
+        android:src="@mipmap/status_online" />
+
+    <TextView
+        android:id="@+id/friend_child_textView_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/friend_child_textView_name"
+        android:layout_alignStart="@+id/friend_child_textView_name"
+        android:layout_alignTop="@+id/friend_child_imageview_status"
+        android:text="在线"
+        android:textColor="#06d706" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/phone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/title">
+
+        <LinearLayout
+            android:id="@+id/myself_layout__back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/web_bar_back_press"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="个人资料"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:id="@+id/myself_layout_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:text="完 成"
+                android:textColor="@android:color/white"
+
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="用户ID："
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_id_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_id"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="用户名："
+
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_user_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_user"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#999999" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:id="@+id/myself_layout_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/while_blue"
+            android:padding="10dp"
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="昵称："
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_nickname_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView"
+                android:drawableRight="@mipmap/youjiantou"
+                android:gravity="center"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:id="@+id/myself_layout_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/while_blue"
+            android:padding="10dp"
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="性别："
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_sex_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_sex"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/youjiantou"
+                android:gravity="center"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:id="@+id/myself_layout_years"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/while_blue"
+            android:padding="10dp"
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="年龄："
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_years_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_years"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/youjiantou"
+                android:gravity="center"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:id="@+id/myself_layout_qq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/while_blue"
+            android:padding="10dp"
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="QQ号码："
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/myself_textview_qq_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_qq"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/youjiantou"
+                android:gravity="center"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.2px"
+            android:background="#999999" />
+
+        <RelativeLayout
+            android:id="@+id/myself_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/while_blue"
+            android:padding="10dp"
+            android:paddingLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/myself_textview_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="修改密码："
+                android:textColor="#000000" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/myself_textview_password"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/youjiantou"
+                android:gravity="center"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#999999" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

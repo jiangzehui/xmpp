@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/common_loading4_0" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_1" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_2" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_3" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_4" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_5" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_6" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_7" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_8" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_9" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_10" android:duration="100"></item>
+    <item android:drawable="@mipmap/common_loading4_11" android:duration="100"></item>
+
+</animation-list>

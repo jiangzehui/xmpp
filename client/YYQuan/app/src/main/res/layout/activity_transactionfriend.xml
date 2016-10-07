@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/title">
+
+        <LinearLayout
+            android:id="@+id/layout_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/web_bar_back_press"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="好友申请"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/while_blue"
+        android:padding="10dp">
+
+        <com.yyquan.jzh.view.CircleImageView
+            android:id="@+id/imageview_icon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:src="@mipmap/qq_addfriend_search_friend"
+            app:border_color="#ffffff"
+            app:border_width="2dp" />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageview_icon"
+            android:layout_toRightOf="@+id/imageview_icon"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageview_icon"
+            android:layout_toEndOf="@+id/imageview_icon"
+            android:layout_toRightOf="@+id/imageview_icon"
+            android:text="" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="来源：账号查找" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textview_shenqing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="申请时间：" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_btn"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_tongyi"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_login_textview_focused"
+            android:gravity="center"
+            android:text="同  意"
+            android:textSize="15dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_jujue"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_login_textview_focused"
+            android:gravity="center"
+            android:text="拒  绝"
+            android:textSize="15dp"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="已同意申请"
+        android:id="@+id/tv_tishi"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

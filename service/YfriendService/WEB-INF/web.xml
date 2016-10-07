@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetType</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetContent</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetContent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetPingLun</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetPingLun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetUser</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetIcon</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetIcon</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoGetLunTan</servlet-name>
+    <servlet-class>com.jzh.news.servlet.DoGetLunTan</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DoGetType</servlet-name>
+    <url-pattern>/DoGetType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetContent</servlet-name>
+    <url-pattern>/DoGetContent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetPingLun</servlet-name>
+    <url-pattern>/DoGetPingLun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetUser</servlet-name>
+    <url-pattern>/DoGetUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetIcon</servlet-name>
+    <url-pattern>/DoGetIcon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoGetLunTan</servlet-name>
+    <url-pattern>/DoGetLunTan</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>indexs.html</welcome-file>
+  </welcome-file-list>
+</web-app>

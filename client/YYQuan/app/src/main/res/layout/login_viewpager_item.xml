@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_grey_mine_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/login_viewpageritem_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@mipmap/me_icon_man"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

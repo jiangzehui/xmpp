@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp">
+
+    <com.yyquan.jzh.view.CircleImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_time"
+        android:layout_gravity="start"
+        android:src="@mipmap/ic_launcher"
+        app:border_color="#778377"
+        app:border_width="0.2px" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_toLeftOf="@+id/iv_icon"
+        android:layout_toStartOf="@+id/iv_icon"
+        android:text="name" />
+
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/iv_icon"
+        android:layout_toStartOf="@+id/iv_icon"
+        android:background="@drawable/chat_me_tao"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        emojicon:emojiconAlignment="baseline" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="New Text" />
+
+
+</RelativeLayout>

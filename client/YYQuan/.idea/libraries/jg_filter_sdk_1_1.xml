@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jg_filter_sdk_1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/jg_filter_sdk_1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
