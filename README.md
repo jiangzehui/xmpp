@@ -1,5 +1,6 @@
 # yyquan
-
+[![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Twitter](https://img.shields.io/badge/Gradle-2.1.0-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)
 开源一个自己去年写的基于Xmpp协议的即时通讯社交软件(客户端+服务端)<br>
 
 <br>
