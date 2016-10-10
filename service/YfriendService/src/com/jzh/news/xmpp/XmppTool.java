@@ -34,7 +34,7 @@ public class XmppTool {
 	private static Connection connection;
 	private static ConnectionConfiguration config;
 
-	 public static String server = "115.29.105.161";
+	 public static String server = "123.207.145.194";
 	//public static String server = "127.0.0.1";
 
 	public static boolean create(User user) {
