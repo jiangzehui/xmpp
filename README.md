@@ -1,9 +1,7 @@
 # yyquan
 [![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://img.shields.io/badge/Gradle-2.1.0-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)<br>
-### 抱歉，由于服务端出了点小问题，导致新用户无法登陆。今晚下班回去后在修复一下<br>
-### 需要体验apk的同学暂时先登陆此账号体验<br>
-### 账号： 5350042752   密码：SINAHKSJDHSKDH<br>
+
 开源一个自己去年写的基于Xmpp协议的即时通讯社交软件(客户端+服务端)<br>
 <br>
 本项目仅供参考，对于正在学习Xmpp以及javaweb后台的同学，可以看一下。<br>
