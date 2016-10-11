@@ -2,7 +2,7 @@
 [![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://img.shields.io/badge/Gradle-2.1.0-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)<br>
 开源一个自己去年写的基于Xmpp协议的即时通讯社交软件(客户端+服务端)<br>
-
+###抱歉，服务端出了点小问题，暂时无法体验apk，等晚上下班后我在解决，<br>2016年10月11日10:22:26<br>
 <br>
 正在学习Xmpp以及javaweb后台的同学，可以参考一下。
 <br>
