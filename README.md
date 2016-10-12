@@ -2,7 +2,7 @@
 [![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://img.shields.io/badge/Gradle-2.1.0-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)<br>
 
-开源一个自己去年写的基于Xmpp协议的即时通讯社交软件(客户端+服务端)<br>
+开源一个自己去年写的基于Xmpp协议的即时通讯社交软件 (客户端+服务端)<br>
 <br>
 本项目仅供参考，对于正在学习Xmpp以及javaweb后台的同学，可以看一下。<br>
 做这个项目纯属个人兴趣爱好，所以即时通讯做的不是很深，只是简单的实现了功能。（查询，添加好友，聊天等）<br>另外要提的一点，源生的openfire很好，但并不能满足所有业务，所以需要对openfire进行二次开发。
