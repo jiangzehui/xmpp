@@ -5,7 +5,8 @@
 开源一个自己去年写的基于Xmpp协议的即时通讯社交软件 (客户端+服务端)<br>
 <br>
 本项目仅供参考，对于正在学习Xmpp以及javaweb后台的同学，可以看一下。<br>
-做这个项目纯属个人兴趣爱好，所以即时通讯做的不是很深，只是简单的实现了功能。（查询，添加好友，聊天等）<br>另外要提的一点，源生的openfire很好，但并不能满足所有业务，所以需要对openfire进行二次开发。
+做这个项目纯属个人兴趣爱好，所以即时通讯做的不是很深，只是简单的实现了功能。（查询，添加好友，聊天等）<br>另外要提的一点，源生的openfire很好，但并不能满足所有业务，所以需要对openfire进行二次开发。<br>
+
 <br>
 <br>
 如果你觉得还不错，可以给个star，支持下，谢谢了！
@@ -67,6 +68,14 @@ mysql<br>
 ###Other
 Tomcat<br>
 JavaWeb<br>
+
+#服务端安装
+1.安装 mysql+tomcat6.0<br>
+2.初始化数据库文件<br>
+3.将service服务端代码部署到tomcat<br>
+4.openfire安装部署 http://jingyan.baidu.com/article/2c8c281df16ad30008252ae4.html<br>
+5.启动tomcat与openfire<br>
+ps: IP地址记得要改成你自己的<br>
 
 #About me
 
