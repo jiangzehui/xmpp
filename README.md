@@ -74,6 +74,7 @@ JavaWeb<br>
 2.初始化数据库文件<br>
 3.将service服务端代码部署到tomcat(我上传的是源码，需要自己编译一下哈)<br>
 4.openfire安装部署 http://jingyan.baidu.com/article/2c8c281df16ad30008252ae4.html<br>
+5.修改一下openfire数据表ofuser表name字段的长度（代码：alter table ofuser modify column name varchar(200);）
 5.启动tomcat与openfire<br>
 ps: IP地址记得要改成你自己的，由于是去年写的项目，Android6.0并没有做适配，请谅解，如果遇到报错，请手动打开所有权限。<br>
 
