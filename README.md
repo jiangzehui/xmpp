@@ -80,7 +80,7 @@ ps: IP地址记得要改成你自己的，由于是去年写的项目，Android6
 
 #其他推荐
 
-模仿掌上英雄联盟能力分析效果 https://github.com/jiangzehui/polygonsview<br>
+模仿掌上英雄联盟能力分析效果<br> https://github.com/jiangzehui/polygonsview<br>
 ![gif](https://github.com/jiangzehui/polygonsview/blob/master/png/p3.gif)<br>
 #About me
 
