@@ -78,11 +78,15 @@ JavaWeb<br>
 6.启动tomcat与openfire<br>
 ps: IP地址记得要改成你自己的，由于是去年写的项目，Android6.0并没有做适配，请谅解，如果遇到报错，请手动打开所有权限。<br>
 
+#推荐阅读
+
+模仿掌上英雄联盟能力分析效果 https://github.com/jiangzehui/polygonsview<br>
+![gif](https://github.com/jiangzehui/polygonsview/blob/master/png/p3.gif)<br>
 #About me
 
 An android little developer in HeBei.<br>
 If you have any suggestions, let me know.<br>
-email:383001264@qq.com
+email:jianghui1992@vip.qq.com
 
 <br>
 #License
