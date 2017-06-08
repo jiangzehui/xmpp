@@ -115,7 +115,7 @@ public class PhoneRegsterFragment extends Fragment implements View.OnClickListen
                     tv_enter.setBackgroundResource(R.drawable.shape_login_textview_focused);
                 } else {
 
-                    tv_enter.setEnabled(false);
+                    tv_enter.setEnabled(true);
                     tv_enter.setBackgroundResource(R.drawable.shape_login_textview_nomal);
                 }
             }
@@ -225,7 +225,9 @@ public class PhoneRegsterFragment extends Fragment implements View.OnClickListen
 
                 } else if (result == SMSSDK.RESULT_ERROR) {
                     DialogView.dismiss();
-                    Toast.makeText(getActivity(), "验证失败,请重试", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getActivity(), "验证失败,请重试", Toast.LENGTH_SHORT).show();
+                    ((PhoneRegsterActivity) getActivity()).gotoPhoneRegsterToMessgae();
+
                 }
             }
 
