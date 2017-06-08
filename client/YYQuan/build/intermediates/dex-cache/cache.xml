@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d3f8bc5b94eab16f6e049d3c0fe41257beab8a92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/gson-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.5_a4f9011a5e7ce73d7c4550a26225eff6173e01eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.1.1/4bff754fc05336940a8cb348e455c01515b5d883/analytics-6.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4bff754fc05336940a8cb348e455c01515b5d883">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.1.1_d386fad4f83d7d42d9a25b985adc7ab0c7864051/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/MobTools.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/MobTools_27ecd7d29e108563143b22f6e27584b315bfefc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/mid-sdk-2.20.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0822bf00661a83ba2fab32214c70cc50a244a0a3">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/mid-sdk-2.20_74f69824e706bb89f0d01461d18d10c86acbede4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_06d006145741fa4f91210e45df2aca28656974fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/asmack-android-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d0153304081a3a9ddb15c93082e2664b94746e9">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/asmack-android-6_4b4b6b66647ededadd47ce73f3b0cb4c55c0ac46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_094e4937f802c295a50037eb40560cd158a4e713/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/MobLogCollector.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/MobLogCollector_f36284368c980975cafd680d9d2af4bc4113e024/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/AMap_Search_v2.6.0_20150914.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a1add372e0354b1a3e8614d742362491cb8c2f4">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_v2.6.0_20150914_c1b11ce9a4515584c3371b6c30da1da424ffaf33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/wup-1.0.0-SNAPSHOT_099d8797b3b31e23440e8075e242a545ece518ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/AMap_3DMap_v2.6.0_20150914.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5723f613d0bd1fb0c0e7025f09e091f62aff02e8">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_3DMap_v2.6.0_20150914_b3d97ae67d57d1fcdf944b136028638da16ce6a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/Xg_sdk_v2.39_20150915_1121.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1a16d54584c44f32d2492e25acab5f8d07772fb">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/Xg_sdk_v2.39_20150915_1121_71768ab7fa4f19edad6fe9b0e1f6d2d4303807f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/0ca6d3dbfe4dbe3aae5e198fb875b876e39eb997/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3a844b06552725ebfca28cb080318db0ae4ce146/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-SinaWeibo-2.6.3_652435e26d4f878165c427254ddb2e750ddd7cc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/0ffccef60fcea505682d65d7d7b90d1063387865/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22e499226fe1f95b9a4811f1be7664b474ab15ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_17f869e810fb1df427196f9aa3d080410f14a68b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/AMap_Location_v1.4.1_20150917.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07008f2806e509a55706771629c8767998b6fb98">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Location_v1.4.1_20150917_5f5549545cd9f8f391c41ef70d9ec397661b7a59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/0158a4621bcea3942be793539599c89c5dabc36f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f4b1e4b867170a1d922d1bc729e4b965e1532f7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="469c66aa571ed478b9c7c8bfb9477f05459c6f1e">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7cc368083e51403d1554e75a2a99b4990ab95c41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/a2441e6db8187e4b248a5169c4ae3d1e6f09eb15/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f883b6beebdca12465fb48ce95ed9601249303aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/jg_filter_sdk_1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/jg_filter_sdk_1.1_bcdfb84c37400092e9ae5edf62d8360c2a20b14b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/118f8e4016bfad7f8e4cf9bc563a6628231df177/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="890be6e1e56a883c9b407a11e067a61886dec123">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_96cf827d2bb28afd3f53ad2646a4c7983199b8d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/683aab7933fea1d09241cb8294c88b08901933c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bec9e048ec31d169b11e94c9ac7915331d6a4b24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/ShareSDK-Core-2.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-Core-2.6.3_42b7b6b72927d27203ae52ea4412593ef01f0150/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/0a1b58c3888fc9bb7b8d2fa3748b8ae886e700ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d84787b18016cf580743b717d6349ed451321042/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/d99085f4c45b726022b9f71ae8b25d2b7899e050/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcca57571c432c186f738fccb93e4ca5bc02aada">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ab3c778ed16c1e9828b4636b8c2f6249387f809/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_13d8d5448c6418b57d0335ad5daff4ae9438afc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/SMSSDK-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0951da1e350144289581921fcc3570cc3aeac48a">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/SMSSDK-1.3.1_af47feb6f804b870d51da61d6648e9ee23ec342e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/libs/ShareSDK-QQ-2.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="496e163b2b242a83885f065f193810611ada229a">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/2/ShareSDK-QQ-2.6.3_93c18d611a62ef0b9fefb76ca39ccc1a9c6d61f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_1f52fb10b7390eff20f0a58e53ef7947450733f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/0a1b58c3888fc9bb7b8d2fa3748b8ae886e700ea/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_547ba234d6a7807538288ef12ba9875fa75bc843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_79e0030d5831f9138ff6b704b3d4094a7f7eead7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/d59851f611858301076604b066f714988ac673ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b98861ef86d1575672b61b5f58a59eede6119c97">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3fec7947433f4f329562ea820a02b370d7775062/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/AlexLee/.android/build-cache/d69cfe4817a12ed2739ad46a014492f8b615e984/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/AlexLee/Documents/meitu/xmpp/client/YYQuan/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_acb56b751d43af94a69f23c7e123db978853cc56/classes.dex" />
+    </item>
+
+</items>

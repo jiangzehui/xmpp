@@ -76,7 +76,7 @@ import java.util.Set;
 public class XmppTool {
     private String tag = "XmppTool";
     private static XmppTool instance;
-    public static final String HOST = "123.207.145.194";
+    public static final String HOST = "172.18.12.112";
     // public static final String HOST = "192.168.1.188";
     public static final int PORT = 5222;
     private static XMPPConnection con;
@@ -93,11 +93,17 @@ public class XmppTool {
     private XmppTool() {
         configure(ProviderManager.getInstance());
         ConnectionConfiguration connConfig = new ConnectionConfiguration(HOST, PORT);
-        connConfig.setSASLAuthenticationEnabled(false);
-        connConfig.setReconnectionAllowed(true);
-        connConfig.setSendPresence(false);
+//        connConfig.setSASLAuthenticationEnabled(false);
+//        connConfig.setSecurityMode(ConnectionConfiguration.SecurityMode.disabled);
+//        connConfig.setReconnectionAllowed(true);
+//        connConfig.setSendPresence(false);
         // connConfig.setSecurityMode(ConnectionConfiguration.SecurityMode.enabled);
         // connConfig.setSendPresence(true);
+
+//        connConfig.setTruststoreType("AndroidCAStore");
+//        connConfig.setTruststorePassword(null);
+//        connConfig.setTruststorePath(null);
+
         con = new XMPPConnection(connConfig);
         con.DEBUG_ENABLED = true;
 
@@ -110,9 +116,13 @@ public class XmppTool {
                     SLog.i(tag, "conn.disconnect() failed: " + e);
                 }
             }
-            SmackConfiguration.setPacketReplyTimeout(30000);// 设置超时时间
+            SmackConfiguration.setPacketReplyTimeout(10000);// 设置超时时间
             SmackConfiguration.setKeepAliveInterval(-1);
             SmackConfiguration.setDefaultPingInterval(0);
+
+
+
+
             con.connect();
 
             con.addConnectionListener(new ConnectionListener() {
@@ -192,6 +202,8 @@ public class XmppTool {
         try {
             this.context = context;
             // SASLAuthentication.supportSASLMechanism("PLAIN", 0);
+            SLog.i(tag, name.toLowerCase() + " " + pwd);
+
             con.login(name.toLowerCase(), pwd);
             // getMessage();//获取离线消息
             int status = SharedPreferencesUtil.getInt(context, "status", name + "status");
