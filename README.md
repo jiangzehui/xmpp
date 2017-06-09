@@ -10,8 +10,9 @@
 <br>
 <br>
 如果你觉得还不错，可以给个star，支持下，谢谢了！
-<br>
+
 # 项目效果图
+<br>
 PNG
 <br>
 <a href="img/img5.png"><img src="img/img5.png" width="33%"/></a> <a href="img/img6.png"><img src="img/img6.png" width="33%"/></a><a href="img/img0.png"><img src="img/img0.png" width="33%"/></a>
@@ -65,7 +66,7 @@ openfire_3_10_3<br>
 ### 数据库
 mysql<br>
 
-###Other
+### Other
 Tomcat<br>
 JavaWeb<br>
 
@@ -89,7 +90,7 @@ An android little developer in HeBei.<br>
 If you have any suggestions, let me know.<br>
 email:jianghui1992@vip.qq.com
 
-<br>
+
 # License
 
 Copyright 2016 jiangzehui
