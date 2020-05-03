@@ -31,7 +31,7 @@ GIF
 <br>
 # APK
 [apk下载](https://github.com/jiangzehui/yyquan/blob/master/apk/yyq1.2.2.apk)
-<br>或者前往各大应用市场（应用宝，360，百度等）搜索 **猿友圈** 下载<br>如无法测试，说明服务器到期了。请自行搭建服务端，搭建过程遇到任何问题可以联系我<br>email:jianghui1992@vip.qq.com
+<br>或者前往各大应用市场（应用宝，360，百度等）搜索 **猿友圈** 下载<br>如无法测试，说明服务器到期了。
 <br>
 # 用到的三方库
 ## 客户端
